@@ -1,11 +1,11 @@
 # EZ-DB-JSON
-Ez Db JSON est un module qui permet d'enregistrer, d'utiliser, et de changer des données tout ça dans un fichier json !
+EZ DB JSON est un module qui permet d'enregistrer, d'utiliser, et de changer des données tout ça dans un fichier json !
 Grâce à ce module, plus besoin de faire 10 lignes de code ! Une suffit !
 
 # Features
-• Made in France ! 🇫🇷
-• Simple d'utilisation 🍃
-• 4 fonctions seulement !
+• Made in France ! 🇫🇷<br/>
+• Simple d'utilisation 🍃<br/>
+• 4 fonctions seulement !<br/>
 
 # Installation
 ```npm install ez-db-json```
@@ -21,7 +21,7 @@ const db = require('ez-db-json')
 # Toutes les fonctions en exemple
 
 ```javascript 
-##db.set(<name>, <value>)
+db.set(<name>, <value>)
 ```
 Cette fonction permet de set une valeur à un nom dans votre fichier db.json.
 
@@ -30,11 +30,11 @@ Cette fonction permet de set une valeur à un nom dans votre fichier db.json.
 
 
 ```javascript
-######db.set('activé', true)
+db.set('activé', true)
 ```
 
 ```javascript
-## db.get(<name>)
+db.get(<name>)
 ```
 Cette fonction permet de prendre la valeur d'un nom dans votre fichier db.json.
 
