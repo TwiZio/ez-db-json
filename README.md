@@ -8,6 +8,7 @@ Grâce à ce module, plus besoin de faire 10 lignes de code ! Une suffit !
 • 4 fonctions seulement !<br/>
 
 # Installation
+Allez dans votre terminal et lancez la commande:
 ```npm install ez-db-json```
 
 # Avant de commencer...
@@ -39,3 +40,8 @@ db.get(<name>)
 Cette fonction permet de prendre la valeur d'un nom dans votre fichier db.json.
 
 `name`: Le nom de la valeur que vous voulez prendre
+
+```javascript
+db.get('activé')
+// => true
+```
