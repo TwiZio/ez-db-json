@@ -33,7 +33,7 @@ Cette fonction permet de set une valeur à un nom dans votre fichier db.json.
 ```javascript
 db.set('activé', true)
 ```
-
+<br/>
 ```javascript
 db.get(<name>)
 ```
