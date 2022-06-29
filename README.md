@@ -18,6 +18,8 @@ Vous devez importer le module dans votre code:<br/>
 const db = require('ez-db-json');
 ```
 
+Puis ensuite créer un fichier nommé `db.json`
+
 # Toutes les fonctions et exemples
 
 ## Fonction `set`
